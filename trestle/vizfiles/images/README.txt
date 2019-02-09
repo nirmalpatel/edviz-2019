@@ -1,0 +1,1 @@
+Image files put into this directory can be referenced by properties in the tree to render in the viz.

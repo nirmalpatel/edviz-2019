@@ -1,0 +1,157 @@
+body{
+  overflow: hidden;
+}
+
+/*text {
+  font-size: 11px;
+  pointer-events: none;
+}
+
+text.parent {
+  fill: #1f77b4;
+}*/
+
+.label {
+  font: 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-anchor: middle;
+  /*text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;*/
+  pointer-events: none;
+}
+
+circle {
+  fill: #ccc;
+  stroke: #999;
+  pointer-events: all;
+}
+
+circle.parent {
+  fill: #1f77b4;
+  fill-opacity: .25;
+  stroke: steelblue;
+}
+
+circle.focus{
+  stroke: #98ff98;
+  stroke-width:2px;
+}
+
+circle.parent:hover {
+  stroke: #ff7f0e;
+  stroke-width: 1px;
+}
+
+#property-container{
+    position: absolute;
+    top: 0;
+    right: 0;
+    overflow-y: auto;
+    max-height: 100vh;
+    background: white;
+}
+
+.svg-container {
+  display:inline-block;
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  padding-bottom: 100%;
+  vertical-align: top;
+  overflow: hidden;
+}
+
+.svg-content-responsive {
+  display: inline-block;
+  position: absolute;
+  max-height: 100vh;
+  top:0;
+  left: 0;
+}
+
+table{
+  table-layout: auto;
+  border-collapse: collapse;
+  width:100%;
+  empty-cells: hide
+}
+
+td.prop-column {
+  width:60%;
+  max-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+td.count-column {
+  width:20%;
+    max-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+td.perc-column {
+  width:20%;
+    max-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+table td.absorbing-column{
+  width:100%;
+
+}
+
+a {
+  color:black;
+}
+
+a:hover {
+  color:black;
+}
+
+.concept-prop{
+  min-width:50%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.val-row {
+  padding-left:30px !important;
+}
+
+.color-ops {
+  padding-right: 20%;
+  padding-left: 10%; 
+  /*text-align: center;*/
+}
+
+
+#numeric-colors {
+  width:100%;
+}
+
+td.swatch{
+  width: 50px;
+}
+
+.num-header {
+  width: 50%;
+}
+
+.num-val {
+  width:33.3%;
+}
+
+.num-swatch {
+  width: 11.1%;
+  min-height: 2rem;
+}
+
+#filter-form {
+  padding-left: 30px;
+}
+
