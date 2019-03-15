@@ -2,4 +2,6 @@ Please refer to the following paper to know more about the visualization: What d
 
 How to run the code:
 
-To run the code, please visit https://gitlab.beuth-hochschule.de/smart-learning/publications and follow the instructions.
+The latest release can be found here: https://gitlab.beuth-hochschule.de/smart-learning/publications/tree/2019_EdViz_docker-release
+
+The git repository contains several branches, please switch to different branches to see the different publicly available versions.
